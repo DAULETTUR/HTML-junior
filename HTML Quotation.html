@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+<title>HTML- элементы цитат и цитирования</title> 
+
+<!-- В этой главе мы рассмотрим элементы <blockquote>, <q>, <abbr>, <address>, <cite>и <bdo>HTML. -->
+  
+  </head>
+
+<body>
+    
+
+
+</body>
+
+<!-- HTML <blockquote> для цитат
+Элемент HTML <blockquote>определяет раздел, цитируемый из другого источника.
+
+Браузеры обычно делают отступы <blockquote>для элементов. -->
+
+    <p style="background-color: darkgrey;">Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 60 years, WWF has worked to help people and nature thrive. 
+    As the world's leading conservation organization, WWF works in nearly 100 countries. 
+    At every level, we collaborate with people around the world to develop and deliver 
+    innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
+<!-- HTML <q> для коротких цитат
+Тег HTML <q>определяет короткую цитату.
+
+Браузеры обычно заключают цитату в кавычки. -->
+
+    <p style="background-color: darkgrey;">Browsers usually insert quotation marks around the q element.</p>
+
+<p>WWF's goal is to:<q>Build a future where people live in harmony with nature.</q></p>
+
+<!-- HTML <abbr> для сокращений
+Тег HTML <abbr>определяет аббревиатуру или акроним, например «HTML», «CSS», «Mr.», «Dr.», «ASAP», «ATM».
+
+Сокращения маркировки могут предоставить полезную информацию браузерам, системам перевода и поисковым системам.
+
+Совет: используйте глобальный атрибут title, чтобы отобразить описание аббревиатуры/сокращения 
+при наведении указателя мыши на элемент.  -->
+
+<p style="background-color: darkgrey;"><br>The <abbr title="World Health organization"><mark>WHO</mark></abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviatiions can give useful information to browsers, 
+    translation systems and search-engines</p>
+
+<p style="background-color: darkgrey;"><br>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address style="color: red">
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<!-- HTML <cite> для названия работы
+HTML- <cite>тег определяет название творческого произведения (например, книги, стихотворения, песни, фильма, картины, скульптуры и т. д.).
+
+Примечание: Имя человека не является названием произведения.
+
+Текст в <cite>элементе обычно отображается курсивом . -->
+
+    <p style="background-color: darkgrey;"><br>The HTML cite element defines the title of a work.</p>
+    <p>Browsers usually display cite elements in italic.</p>
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream" >
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<!-- HTML <bdo> для двунаправленного переопределения
+BDO означает двунаправленное управление.
+
+Тег HTML <bdo>используется для переопределения текущего направления текста: -->
+
+<p><br>If your browser supports bi-directional override (bdo), 
+    the next line will be written from right to left (rtl):</p>
+
+    <bdo dir="rtl">Google LLC is an American multinational corporation and technology company</bdo>
+</html>
+
+<!-- HTML-элементы цитат и цитирования
+Tag	Description
+
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation -->
